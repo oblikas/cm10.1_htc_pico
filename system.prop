@@ -76,7 +76,7 @@ ro.vendor.extension_library=/system/lib/libqc-opt.so
 DEVICE_PROVISIONED=1
 htc.audio.alc.enable   = 1
 htc.audio.swalt.enable = 1
-dalvik.vm.heapsize=48m
+dalvik.vm.heapsize=64m
 ro.opengles.version = 131072
 debug.composition.7x25A.type=mdp
 media.stagefright.enable-player=true
@@ -115,4 +115,8 @@ ro.PERCEPTIBLE_APP_ADJ=0
 ro.kernel.android.checkjni=0
 dalvik.vm.verify-bytecode=false
 dev.sfbootcomplete=0
+ro.lge.proximity.delay=25
+mot.proximity.delay=25
+ro.media.dec.jpeg.memcap=8000000
+persist.sys.ui.hw=1
 
